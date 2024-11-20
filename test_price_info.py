@@ -6,8 +6,8 @@ def test_total_cost_shipping():
     assert(expected==result)
 
 def test_cost_of_fruit():
-    fruit = "apple"
+    fruit = "apple" #need to define values here first to pass to function in price_info to calculate
     quantity = 5
-    expected = 6
-    result = pi.cost_of_fruits('apple', quantity)
+    expected = 6 
+    result = pi.cost_of_fruits('apple', quantity) #then pass it back here to check w expected
     assert(expected==result)
